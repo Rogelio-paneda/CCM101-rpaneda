@@ -1,4 +1,3 @@
-
 # AWS Research
 
 ## Brief Overview
@@ -28,5 +27,3 @@ The **AWS Management Console** is the web-based dashboard used to provision and 
 - **Large-scale web and mobile backends** that need auto-scaling compute (EC2 Auto Scaling, Lambda) paired with managed databases.
 - **Big data and analytics pipelines** using services like S3 as a data lake combined with Redshift or Athena for querying.
 - **Enterprise migration ("lift and shift")** of existing on-premises data centers, using services like AWS Migration Hub and Direct Connect.
-
-*Screenshot placeholder: add a screenshot of the AWS homepage or AWS Management Console to `screenshots/aws-homepage.png` and reference it here.*
