@@ -27,5 +27,3 @@ The **Google Cloud Console** is the web-based management dashboard. GCP also pro
 - **Data analytics-heavy organizations** that want a serverless data warehouse (BigQuery) instead of managing their own database clusters.
 - **Kubernetes-native companies** running containerized microservices that want the most mature managed Kubernetes experience.
 - **Media, gaming, and streaming companies** that benefit from Google's global network backbone for low-latency content delivery.
-
-*Screenshot placeholder: add a screenshot of the GCP homepage or Cloud Console to `screenshots/gcp-homepage.png` and reference it here.*
