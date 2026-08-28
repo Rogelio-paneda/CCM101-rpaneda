@@ -48,7 +48,7 @@
 - **Elastic Load Balancing (ELB)** — distributes incoming traffic across multiple servers/regions
 - **CloudFront** — a global content delivery network (CDN) that caches content close to customers worldwide
 
-## Multi-Cloud Decision Matrix (Checkpoint 6)
+## Multi-Cloud Decision Matrix 
 
 | Business Requirement | Recommended Platform | Justification |
 |---|---|---|
