@@ -27,5 +27,3 @@ The **Azure Portal** is the primary web-based console for managing resources. Az
 - **Hybrid cloud deployments**, where some workloads stay on-premises for compliance while others move to Azure.
 - **.NET application hosting**, since Azure App Service and Visual Studio integrate directly with the Microsoft development toolchain.
 - **Government and regulated industries**, which often favor Azure Government's compliance certifications (FedRAMP, CMMC, etc.).
-
-*Screenshot placeholder: add a screenshot of the Azure homepage or Azure Portal to `screenshots/azure-homepage.png` and reference it here.*
