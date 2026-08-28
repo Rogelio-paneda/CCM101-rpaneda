@@ -1,4 +1,3 @@
-
 # Cloud Platform Comparison
 
 ## Comparison Table
@@ -25,7 +24,7 @@ Microsoft Azure, by a wide margin. Because Microsoft builds both Azure and produ
 Google Cloud Platform. Google created and open-sourced Kubernetes, and GKE is generally viewed as the most mature managed Kubernetes offering. GCP also leads in AI/ML through Vertex AI and custom TPU hardware, both built on the same infrastructure Google uses for its own AI products.
 
 **4. Which cloud platform would you personally choose and why?**
-*This one is meant to reflect your own reasoning — swap in your actual answer.* A reasonable structure: state which platform you'd pick, then justify it against a specific priority (cost, ecosystem fit, AI/ML support, or breadth of services) rather than just "it's the most popular."
+I would personally choose Microsoft Azure. As a student, Azure for Students gives me free credits without requiring a credit card, which makes it the most accessible platform for me to actually practice on outside of class. It's also widely used in the industry, so the skills I build on it now should still transfer well to real jobs later.
 
 ## Service Matching Table (Checkpoint 5)
 
