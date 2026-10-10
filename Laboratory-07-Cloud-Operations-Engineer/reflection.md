@@ -1,0 +1,11 @@
+# Mission Reflection
+
+Monitoring the host server's physical resources is essential even when individual containers run perfectly because containers share the host operating system kernel and hardware. If the underlying host suffers from total RAM exhaustion, a full disk partition, or severe CPU throttling, every container running on that host node will crash simultaneously, regardless of how light an individual container's workload is.
+
+When a user reports login failures, the `docker logs` command provides critical visibility into runtime events occurring inside the web container. SREs can inspect real-time HTTP response codes to verify whether login endpoints return 500-level internal errors or 401/403 authorization failures, check if the container is failing to reach database services, or detect unhandled software exceptions occurring at the exact time of the user's attempt.
+
+The fundamental difference between monitoring logs and monitoring metrics lies in the data type and purpose. Logs record qualitative, event-based text records—such as HTTP access requests or software error traces—offering deep contextual detail on *what* specific events occurred. In contrast, metrics represent quantitative, time-series numerical data—such as CPU percentage, RAM consumption, and network throughput—offering high-level visibility into *how system health changes* over time.
+
+Large enterprise organizations monitor thousands of containers simultaneously using centralized observability frameworks rather than manual CLI commands. They deploy metrics collection systems like Prometheus paired with visualization platforms like Grafana, alongside centralized log aggregation tools like Fluentd or the Elastic Stack (ELK). These systems aggregate telemetry into real-time dashboards with automated alerts.
+
+Through hands-on terminal diagnostics, my ability to troubleshoot Linux environments has improved significantly. Moving beyond reactive guessing, I can now systematically isolate hardware constraints, inspect container logs for specific HTTP status codes, verify live resource metrics, and ensure cloud infrastructure stability before handling heavy user workloads.
